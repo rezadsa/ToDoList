@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("topic_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px;
+  padding: 10px 0;
+  width: 70vw;
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  background-color: hsla(180, 100%, 35%, 0.8);
+  box-shadow: 0 0 10px 3px black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 50px 0;
+  position: relative;
+  box-shadow: 0 0 10px 3px black;
+  border-radius: 5px;
+}
+
+.topic-content {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: hsla(180, 100%, 35%, 0.6);
+}
+ul {
+    height: 400px;
+    overflow: auto;
+    width: 65vw;
+  }
+
+li {
+  list-style: none;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* .new-topic{
+    align-self: right;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+} */
+
+h3{
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: start;
+    margin:20px 0;
+    
+    
+}
+
+input[type='text']{
+    padding: 10px;
+    font-size: 20px;
+    width: 700px;
+    background: rgba(200,200,200,0.7);
+    border: none;
+    outline: none;
+    border-left: 3px solid #131212;
+    border-bottom: 3px solid #0b0b0b;
+    color: #181414;
+    margin:0 20px;
+}
+::placeholder{
+    color: rgba(20, 16, 16, 0.5);
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background: rgba(15, 224, 11,.6);
+  bottom: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+
+}
+input[type="submit"]:hover{
+    background: rgba(32, 11, 224, 0.8);
+    color:black;
+}
+.message {
+  font-size: 25px;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: 18px;
+  right: 320px;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+
